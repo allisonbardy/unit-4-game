@@ -1,0 +1,42 @@
+body {
+    background-image: url("../images/bg2.jpg");
+    background-size: 100%;
+}
+header {
+    height: 70px;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+.whiteBackground {
+    color: black;
+    font-family: 'Kalam', cursive;
+    background-color: white;
+    border: solid 1px black;
+}
+p {
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1;
+}
+.container {
+    margin: auto;
+    text-align: center;
+    padding-top: px;
+    padding-bottom: 50px;
+}
+.img {
+    margin-top: 20px;
+}
+#scores{
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 1.5;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}

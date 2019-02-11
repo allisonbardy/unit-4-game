@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Crystals Collector</title>
+</head>
+<body>
+    <header class="whiteBackground">
+    Crystals Collector!
+    </header>
+
+    <p class="whiteBackground">
+    Objective: Match your score with the target score.
+    <br><br>There are four jewels. Each jewel contains a hidden value. Whenever a jewel is clicked, it will reveal the hidden value. The hidden points value represented by that jewel will then be added to your score.<br><br> If your score goes over the target score, you lose. <br><br>The value of each jewel will change when the game restarts. <br><br>Good luck!</p>
+    
+    <div class="container">
+        <p class="whiteBackground" id="scores">
+        Target Score: <span id="target"></span>
+        <br>
+        Your Score: <span id="userScore"></span>
+        <br>
+        Wins: <span id="wins"></span>
+        <br>
+        Losses: <span id="losses"></span></p>
+        
+        <button class="img whiteBackground">
+            <input type="image" id="red" img src="assets/images/red2.png" alt = "Red Crystal"/>
+            <input type="image" id="blue" img src="assets/images/blue2.png" alt = "Blue Crystal"/>
+            <input type="image" id="pink" img src="assets/images/pink2.png" alt = "Pink Crystal"/>
+            <input type="image" id="green" img src="assets/images/green2.png" lt = "Green Crystal"/>
+        </button>
+    </div>
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
